@@ -77,10 +77,9 @@ anderson=( # {{{
 "#363432"
 ) # }}}
 
-
 color_fill(){ sed -i "s/$1/$2/g" $3; }
 
-main(){
+apply_colorscheme(){
 		# Copy the template with the colors to be filled in to a temp file
 		cp .i3status.conf_template temp.txt
 		# the next two lines are a little hack to pass an array to a function
@@ -96,4 +95,15 @@ main(){
 		mv temp.txt i3status.conf
 		}
 
-main despacio
+main() {
+		case "$1" in
+			"despacio") echo "applying $1 colorscheme" && apply_colorscheme despacio ;;
+			"sierra") 	echo "applying $1 colorscheme" && apply_colorscheme sierra ;;
+			"anderson") echo "applying $1 colorscheme" && apply_colorscheme anderson ;;
+			"alduin") 	echo "applying $1 colorscheme" && apply_colorscheme alduin ;;
+			"arcadia") 	echo "applying $1 colorscheme" && apply_colorscheme arcadia ;;
+			*) 			echo "$1 not in available colorschemes"
+		esac
+	}
+
+main $1

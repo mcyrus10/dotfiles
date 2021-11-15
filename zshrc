@@ -100,11 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 set -o vi
-alias vi=vim
-alias cls="clear && ls"
+#alias vi=vim
+#alias cls="clear && ls"
 
-source /home/cyrus/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-alias conda_src='source /home/cyrus/miniconda3/bin/activate'
-alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
-alias ipy="ipython --no-confirm-exit --no-banner --quick --InteractiveShellApp.extensions=\"['autoreload']\" --InteractiveShellApp.exec_lines=\"['%autoreload 2','import numpy as np','import matplotlib.pyplot as plt']\" --TerminalInteractiveShell.editing_mode=vi"
-
+source ${HOME}/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ${HOME}/.aliases
