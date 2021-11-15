@@ -9,14 +9,14 @@
 
 #			====================  colorschemes  ==================== 
 despacio=( 		# {{{
-				"#875f5f" #<-- gray mixed with red
-				"#ff875f" #<-- pink / orange 
-				"#949494" #<-- grayish (memory)
-				"#d7875f" #<-- orange / pink (battery)
-				"#dfaf87" #<-- beige (volume)
-				"#d78700" #<-- orange (wireless)
-				"#5f8787" #<-- bluish gray (load)
-				"#af875f" #<-- light brown
+"#875f5f" #<-- gray mixed with red
+"#ff875f" #<-- pink / orange 
+"#949494" #<-- grayish (memory)
+"#d7875f" #<-- orange / pink (battery)
+"#dfaf87" #<-- beige (volume)
+"#d78700" #<-- orange (wireless)
+"#5f8787" #<-- bluish gray (load)
+"#af875f" #<-- light brown
 		) # }}}
 sierra=(	# {{{	
 "#5f8787" #  Dark_Cyan_Reverse 	

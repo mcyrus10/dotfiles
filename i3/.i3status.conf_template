@@ -9,7 +9,7 @@ general {
 }
 
 order += "load"
-#order += "cpu_temperature 0"
+order += "cpu_temperature 0"
 order += "disk /"
 #order += "ethernet enp1s0"
 order += "wireless wlo1"
