@@ -7,7 +7,6 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'morhetz/gruvbox'
-Plugin 'gilgigilgil/anderson.vim'
 Plugin 'iamcco/markdown-preview.nvim'
 Plugin 'rafi/awesome-vim-colorschemes'
 

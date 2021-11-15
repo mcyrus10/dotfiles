@@ -212,7 +212,7 @@ client.urgent			$urgent-bg-color	$urgent-bg-color		$urgent-text-color	#00ff00
 exec xrdb ~/.Xresources
 bar {
 		position top
-		mode hide
+		#mode hide
         status_command i3status --config ~/.config/i3/i3status.conf
 		colors {
 background $bg-color

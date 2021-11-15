@@ -21,13 +21,14 @@ despacio=( 		# {{{
 sierra=(	# {{{	
 "#5f8787" #  Dark_Cyan_Reverse 	
 "#d78787" #  Medium_Red 			
+"#d78787" #  Medium_Red 			
 "#87afaf" #  Medium_Cyan_Reverse 
 "#767676" #  Grey_Reverse 		
 "#af8787" #  Purple 				
+"#b2b2b2" #  Grey 				
 "#dfafaf" #  Light_Red 			
 "#c6c6c6" #  Silver_Reverse 		
 "#afd7d7" #  Cyan 				
-"#b2b2b2" #  Grey 				
 ) # }}}
 alduin=( #  {{{
 "#875f5f"
@@ -50,21 +51,30 @@ arcadia=( # {{{
 "#af8787"
 ) # }}}
 anderson=( # {{{
+"#008787"
+"#875f87"
+"#949494"
+"#af8787"
+
 "#628b97"
-"#c7a095"
 "#645d59"
 "#7bb292"
 "#c4c18b"
+"#c4c18b"
 "#837d7a"
 "#88a2a4"
+"#363432"
+"#be503e"
+"#9ad1bc"
+"#c5beba"
+
+"#d7ae38"
+"#e7c6be"
 "#9ad1bc"
 "#a8c1c5"
 "#bad4f5"
 "#be503e"
 "#363432"
-"#c5beba"
-"#d7ae38"
-"#e7c6be"
 ) # }}}
 
 
@@ -86,4 +96,4 @@ main(){
 		mv temp.txt i3status.conf
 		}
 
-main alduin
+main despacio
