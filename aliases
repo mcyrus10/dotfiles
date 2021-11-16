@@ -5,5 +5,5 @@ alias vi=vim
 alias cls="clear && ls"
 alias conda_src="source ${HOME}/miniconda3/bin/activate"
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
-alias ipy="ipython --no-confirm-exit --no-banner --quick --InteractiveShellApp.extensions=\"['autoreload']\" --InteractiveShellApp.exec_lines=\"['%autoreload 2','import numpy as np','import matplotlib.pyplot as plt']\" --TerminalInteractiveShell.editing_mode=vi"
+alias ipy="ipython --no-confirm-exit --no-banner --quick --InteractiveShellApp.extensions autoreload --InteractiveShellApp.exec_lines '%autoreload 2' --TerminalInteractiveShell.editing_mode=vi"
 alias exp="cd ${HOME}/Documents/Experimentation"
